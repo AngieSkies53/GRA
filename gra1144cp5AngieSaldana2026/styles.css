@@ -1,0 +1,94 @@
+@charset "UTF-8";
+body {
+    background-color: black;  
+}
+wrapper {
+    margin: auto;
+    width: 1366px;
+    background-color: white;
+    height: auto;
+}
+ul a li {
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+	font-variant: small-caps;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    padding: 20px;
+}
+nav {
+    background-color: black;
+}
+ul a li:hover {
+    background-color: red;
+}
+main {
+    height: 1024px;
+    background-image: url(Polaris_Splash.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#store {
+    background-image: url(polaris_store.jpg);
+    background-size: cover;
+    background-position: 83% 0%;
+}
+h1 {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline;
+}
+h2 {
+    padding: 20px;
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    text-transform: capitalize;
+    color: rgba(255,255,255,1.00);
+}
+#news {
+    background-image: url(Polaris_news.jpg);
+}
+#videos {
+    background-image: url(polaris_vids.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#tour {
+    background-image: url(polaris_live.jpg);
+    background-size: cover;
+    background-position: -12px center;
+}
+#gallery {
+    background-image: url(polaris_gallery.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+#email {
+    background-image: url(polaris_email.jpg);
+    background-position: center center;
+}
+#blog {
+    background-image: url(polaris_blog.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#privacy {
+    background-image: url(polaris_privacy.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+.logo {
+    width: auto;
+    height: 37px;
+    margin-left: -22px;
+}
