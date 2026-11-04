@@ -2,11 +2,32 @@
 body {
     background-color: black;  
 }
+h3 {
+    font-family: "Oswald", sans-serif;
+    color: rgba(255,255,255,1.00);
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 39px;
+    padding-top: 345px;
+    padding-left: 96px;
+}
 wrapper {
     margin: auto;
     width: 1366px;
     background-color: white;
     height: auto;
+}
+h4 {
+    color: white;
+    position: absolute;
+    top: 625px;
+    left: 95px;
+    font-size: 25px;
+    padding-top: 12px;
+    text-transform: uppercase;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    letter-spacing: 10px;
 }
 ul a li {
     display: inline-block;
@@ -15,12 +36,27 @@ ul a li {
     font-family: "Roboto Mono", monospace;
 	font-variant: small-caps;
 }
+#spotify {
+    width: 121px;
+    height: 121px;
+    position: absolute;
+    top: 777px;
+    left: 177px;
+}
+#apple {
+    position: absolute;
+    top: 936px;
+    width: 121px;
+    height: 121px;
+    left: 177px;
+}
 ul {
     margin: 0;
     padding: 0;
 }
 footer {
     padding: 20px;
+    color: rgba(255,255,255,1.00);
 }
 nav {
     background-color: black;
@@ -33,6 +69,27 @@ main {
     background-image: url(Polaris_Splash.jpg);
     background-size: cover;
     background-position: center center;
+}
+#merch #shirt1 {
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    top: 348px;
+    left: 67px;
+}
+#merch #shirt2 {
+    width: 335px;
+    height: 336px;
+    position: absolute;
+    top: 350px;
+    left: 555px;
+}
+#merch #shirt3 {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 343px;
+    left: 1009px;
 }
 #store {
     background-image: url(polaris_store.jpg);
@@ -69,7 +126,7 @@ h2 {
     background-position: -12px center;
 }
 #gallery {
-    background-image: url(polaris_gallery.jpeg);
+    background-image: url(Polaris-live.jpg);
     background-position: center center;
     background-size: cover;
 }
@@ -91,4 +148,259 @@ h2 {
     width: auto;
     height: 37px;
     margin-left: -22px;
+}
+#merch {
+    background-image: url(Polaris-merch.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+iframe {
+    display: inline-block;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    position: absolute;
+    top: 644px;
+    left: 448px;
+    width: 695px;
+    height: 421px;
+}
+#live1 {
+    width: 455px;
+    height: 240px;
+    position: absolute;
+    left: 41px;
+    top: 460px;
+}
+#videos h3 {
+    top: 350px;
+    left: 102px;
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 455px;
+    height: auto;
+    display: inline-block;
+    padding-top: 185px;
+    padding-left: 28px;
+}
+#release {
+    height: 240px;
+    width: 455px;
+    position: absolute;
+    top: 460px;
+    left: 527px;
+}
+#playthrough {
+    width: 455px;
+    height: 240px;
+    position: absolute;
+    top: 460px;
+    left: 1008px;
+}
+#death {
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    top: 362px;
+    left: 527px;
+}
+#coil {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 356px;
+    left: 1018px;
+}
+#fatalism {
+	width: 340px;
+	height: 340px;
+	position: absolute;
+	top: 362px;
+	left: 59px;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+}
+#tour1 {
+	position: absolute;
+	left: 54px;
+	top: 281px;
+	width: 350px;
+	height: 230px;
+	background-position: 0% 0%;
+    object-fit: contain;
+
+}
+#tour2 {
+	width: 350px;
+	height: 230px;
+	position: absolute;
+	top: 535px;
+	left: 54px;
+	object-fit: contain;
+
+}
+#tour3 {
+	width: 350px;
+	height: 230px;
+	position: absolute;
+	top: 807px;
+	left: 54px;
+    object-fit: contain;
+
+}
+#bts {
+	width: 350px;
+	height: 230px;
+	top: 281px;
+	position: absolute;
+	left: 490px;
+	object-fit: contain;
+
+}
+#bts2 {
+	width: 350px;
+	height: 230px;
+	position: absolute;
+	top: 535px;
+	left: 490px;
+	object-fit: contain;
+
+}
+#bts3 {
+	position: absolute;
+	width: 350px;
+	height: 230px;
+	left: 490px;
+	top: 807px;
+	object-fit: contain;
+
+}
+#article {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	letter-spacing: 5px;
+	position: absolute;
+	top: 937px;
+	left: 692px;
+	font-size: 77px;
+	color: #FF0004;
+}
+#headline {
+	position: absolute;
+	top: 802px;
+	text-align: center;
+	font-size: 20px;
+	left: 412px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	letter-spacing: 5px;
+	color: white;
+}
+#without {
+	width: 472px;
+	height: 471px;
+	position: absolute;
+	top: -523px;
+	left: 144px;
+	color: white;
+}
+#dates1 {
+	display: inline-block;
+	color: white;
+	margin-top: 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 25px;
+	padding-top: 0px;
+	letter-spacing: 5px;
+	text-align: left;
+	position: absolute;
+	top: 434px;
+	left: 200px;
+}
+#signup {
+	color: White;
+	text-align: center;
+	position: absolute;
+	top: 454px;
+	left: 541px;
+	height: 0px;
+}
+#join {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: white;
+	position: absolute;
+	top: 254px;
+	left: 328px;
+	letter-spacing: 5px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+#america {
+	font-family: "Oswald", sans-serif;
+	color: white;
+	font-size: 40px;
+	margin-bottom: 85px;
+	position: absolute;
+	top: 222px;
+	left: 357px;
+	padding-top: 0px;
+}
+#mail {
+	width: 435px;
+	height: 420px;
+	position: absolute;
+	top: 563px;
+	left: 477px;
+}
+#dates2 {
+	color: white;
+	display: inline-block;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 25px;
+	letter-spacing: 5px;
+	position: absolute;
+	top: 425px;
+	left: 789px;
+}
+.twitter-tweet {
+	position: absolute;
+	top: 207px;
+	left: 404px;
+}
+#twitter {
+	position: absolute;
+	top: 937px;
+	left: 728px;
+	text-align: left;
+}
+#follow {
+	width: 180px;
+	height: 166px;
+	position: absolute;
+	top: 563px;
+	left: 424px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+#policy {
+	margin-right: 232px;
+	margin-left: 195px;
+	margin-top: 413px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 42px;
+	color: white;
+	left: 2px;
+	position: absolute;
+}
+#statement {
+	position: absolute;
+	top: 383px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	left: 734px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 49px;
 }
