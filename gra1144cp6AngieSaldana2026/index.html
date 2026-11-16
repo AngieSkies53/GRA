@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Macy's | Sweater | Angie Saldana, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style type="text/css">
+body {
+    margin: 0;
+    background-color: lightgrey;
+}
+wrapper {
+    width: 1366px;
+    margin: auto;
+    display: block;
+    background-color: white;
+}
+header {
+    background-color: Black;
+    color: white;
+}
+main {
+	display: grid;
+	grid-template-columns: 48.5% 48.5%;
+	gap: 16px;
+}
+#apparel {
+    position: relative;
+}
+#apparel img  {
+    width: 100%;
+    height: auto;
+    position: absolute;
+	top: 0;
+	left: 0;
+}
+section {
+    height: 883px;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(204,204,204,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(204,204,204,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(204,204,204,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(204,204,204,1.00) 100%);
+}
+#colors button {
+	width: 75px;
+	margin: 10px;
+	border-radius: 50px;
+	border: thin solid white;
+	height: 75px;
+}
+h1 {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	display: inline-block;
+	font-size: 45px;
+}
+#colors button:hover {
+    border-color: black;
+}
+#pink-btn {
+    background-color: #dea7bc;
+    background-image: -webkit-linear-gradient(270deg,rgba(219,160,182,1.00) 0%,rgba(202,96,136,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(219,160,182,1.00) 0%,rgba(202,96,136,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(219,160,182,1.00) 0%,rgba(202,96,136,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(219,160,182,1.00) 0%,rgba(202,96,136,1.00) 100%);
+}
+#blue-btn {
+    background-color: #9dc6dc;
+    background-image: -webkit-linear-gradient(270deg,rgba(157,198,220,1.00) 0%,rgba(64,115,146,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(157,198,220,1.00) 0%,rgba(64,115,146,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(157,198,220,1.00) 0%,rgba(64,115,146,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(157,198,220,1.00) 0%,rgba(64,115,146,1.00) 100%);
+}
+#green-btn {
+    background-color: #c1c8a6;
+    background-image: -webkit-linear-gradient(270deg,rgba(208,217,190,1.00) 0%,rgba(148,152,117,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(208,217,190,1.00) 0%,rgba(148,152,117,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(208,217,190,1.00) 0%,rgba(148,152,117,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(208,217,190,1.00) 0%,rgba(148,152,117,1.00) 100%);
+}
+#sizes button {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 100px;
+	width: 50px;
+	height: 50px;
+	border-color: white;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: large;
+	font-weight: bold;
+}
+#cart button:hover {
+	font-family: "Lexend", sans-serif;
+	font-weight: bolder;
+	width: 175px;
+	height: 120px;
+	font-size: 20px;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(189,150,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(189,150,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(189,150,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(189,150,0,1.00) 100%);
+	border-width: 35px;
+	margin-top: 38px;
+	margin-left: 40px;
+	border-color: #FFEC00;
+}
+
+#cart {
+	font-family: "Lexend", sans-serif;
+	font-weight: bolder;
+	width: 175px;
+	height: 120px;
+	font-size: 20px;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(189,150,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(189,150,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(189,150,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(189,150,0,1.00) 100%);
+	border-width: 0px;
+	margin-top: 38px;
+	margin-left: 40px;
+}
+#description p {
+	line-height: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	margin-bottom: 62px;
+	margin-right: 25px;
+}
+#price {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 20px;
+	margin-top: 71px;
+}
+h2 {
+	font-size: 30px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+.logo {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+#size {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	text-transform: uppercase;
+	margin-top: 90px;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('shoulder-pullover-pink-reverse.jpg','shoulder-pullover-green-reverse.jpg','shoulder-pullover-blue-reverse.jpg')">
+<wrapper>
+  <header><img src="Macy's_Star.png" alt="" width="" height="" class="logo">
+    <h1>Macy's</h1>
+  </header><main>
+  <section id="apparel"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sweater-pink','','shoulder-pullover-pink-reverse.jpg',1)"><img src="shoulder-pullover-pink-front.jpg" alt="sweater pink" width="1200" height="1600" id="sweater-pink"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sweater-green','','shoulder-pullover-green-reverse.jpg',1)"><img src="shoulder-pullover-green-front.jpg" alt="sweater green" width="1200" height="1600" id="sweater-green"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sweater-blue','','shoulder-pullover-blue-reverse.jpg',1)"><img src="shoulder-pullover-blue-front.jpg" alt="sweater blue" width="1200" height="1600" id="sweater-blue"></a></section>
+	
+  <section id="description">
+    <h2>Relaxed Off Shoulder Pullover</h2>
+	  <p>Enjoy effortless style with this relaxed pullover. Featuring a chic off-shoulder design, it combines comfort with a touch of sophistication. Perfect for casual outings or a laid-back day.
+
+True To Size
+Length: 19 1/2"
+Machine wash, tumble dry low.
+54% Polyester, 31% Acrylic, 9% Nylon, 6% Wool
+Style #: 110025109
+</p>
+	  <h3 id="price">$64.99</h3>
+      <div id="colors">
+        <button id="pink-btn" onClick="MM_showHideLayers('sweater-pink','','show','sweater-green','','hide','sweater-blue','','hide')"></button>
+        <button id="blue-btn" onClick="MM_showHideLayers('sweater-pink','','hide','sweater-green','','hide','sweater-blue','','show')"></button>
+        <button id="green-btn" onClick="MM_showHideLayers('sweater-pink','','hide','sweater-green','','show','sweater-blue','','hide')"></button>
+      </div>
+      <h3 id="size">Sizes</h3>
+      <div id="sizes">
+        <button>S</button>
+        <button>M</button>
+        <button>L</button>
+        <button>XL</button>
+      </div>
+      <button id="cart">ADD TO CART</button>
+  </section>
+</main>
+<footer></footer>
+</wrapper>
+</body>
+</html>
