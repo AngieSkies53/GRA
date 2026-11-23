@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>South American Destinations | Angie Saldana, 2026</title>
+<style type="text/css">
+body {
+    margin: 0;
+    background-image: url(Peruvian_Mountains.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+}
+header {
+    background-color: #0059C9;
+}
+img {
+    width: 49px;
+    height: 61px;
+}
+wrapper {
+    margin: auto;
+    width: 1366px;
+    display: block;
+    height: 700px;
+    background-color: rgba(255,255,255,0.50);
+}
+h1 {
+    color: white;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+#Tabs1 ul {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+#Tabs1 {
+    background-color: transparent;
+    background-image: none;
+}
+#tabs-1 ,#tabs-2,#tabs-3,#tabs-4,#tabs-5{
+    background-color: rgba(255,255,255,0.50);
+}
+.search {
+    background-color: #0d5ab9;
+    border-radius: 20px;
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#tabs-1 p select  ,#tabs-3 p select{
+    border-top-left-radius: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#tabs-1 p input  ,#tabs-3 p input{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header><img src="south-america.png" alt="" width="898" height="1280">
+  <h1>South American Destinations</h1>
+</header>
+<wrapper>
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1">Hotels</a></li>
+      <li><a href="#tabs-2">Flights</a></li>
+      <li><a href="#tabs-3">Cars</a></li>
+      <li><a href="#tabs-4">Activities</a></li>
+      <li><a href="#tabs-5">Cruises</a></li>
+    </ul>
+<div id="tabs-1">
+      <p><input type="text" placeholder="Leaving from">
+        <input type="date">
+      <input type="text" placeholder="Going to"><input type="date"><select>
+        <option value="0">Number of Travelers</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select><input type="submit" class="search" value="Search"></p>
+    </div>
+	  <div id="tabs-2">
+      <p>Content 2</p>
+    </div>
+    <div id="tabs-3">
+      <p><input type="text" placeholder="Pick up"><input type="date"><input type="time"><input type="text" placeholder="Return"><input type="date"><input type="time"><input type="search"></p>
+    </div>
+    <div id="tabs-4">
+      <p>Content 4</p>
+    </div>
+    <div id="tabs-5">
+      <p>Content 5</p>
+    </div>
+  </div>
+  <form id="form1" name="form1" method="post">
+  </form>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
